@@ -1651,21 +1651,16 @@
             "labels": [
               "TB 3"
             ],
-            "id": "335effe5-4296-4048-86c2-238040a42dcf",
+            "id": "f074d149-98a5-4d39-bbe4-19acf6297e2c",
             "source": {
-              "x": -270,
-              "y": -200
+              "x": -200,
+              "y": -370
             },
             "target": {
-              "x": -140,
-              "y": -71
+              "x": -200,
+              "y": -200
             },
-            "vertices": [
-              {
-                "x": -180,
-                "y": -150
-              }
-            ]
+            "vertices": []
           },
           {
             "shape": "trust-boundary-curve",
@@ -1682,32 +1677,6 @@
             },
             "labels": [
               "TB 4"
-            ],
-            "id": "f074d149-98a5-4d39-bbe4-19acf6297e2c",
-            "source": {
-              "x": -200,
-              "y": -370
-            },
-            "target": {
-              "x": -200,
-              "y": -200
-            }
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "TB 5",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              "TB 5"
             ],
             "id": "14c1b6f8-a8c5-4a1a-b1bb-28dfa6aa9141",
             "source": {
@@ -1733,27 +1702,27 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "TB 7",
+              "name": "TB 5",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
             "labels": [
-              "TB 7"
+              "TB 5"
             ],
-            "id": "1c9182a7-a267-4c33-8cac-5c383bc83a0e",
+            "id": "aa9a732e-de21-4a71-87ae-5e88dd845c57",
             "source": {
-              "x": 207,
-              "y": -320
+              "x": 0,
+              "y": -440
             },
             "target": {
-              "x": 307,
-              "y": -220
+              "x": 370,
+              "y": -430
             },
             "vertices": [
               {
-                "x": 260,
-                "y": -260
+                "x": 190,
+                "y": -390
               }
             ]
           },
@@ -1773,19 +1742,19 @@
             "labels": [
               "TB 6"
             ],
-            "id": "aa9a732e-de21-4a71-87ae-5e88dd845c57",
+            "id": "1c9182a7-a267-4c33-8cac-5c383bc83a0e",
             "source": {
-              "x": 0,
-              "y": -440
+              "x": 207,
+              "y": -320
             },
             "target": {
-              "x": 370,
-              "y": -430
+              "x": 307,
+              "y": -220
             },
             "vertices": [
               {
-                "x": 190,
-                "y": -390
+                "x": 260,
+                "y": -260
               }
             ]
           }
