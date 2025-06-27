@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "e35e618c-c7cd-4e31-9291-4351fb2ab0fb",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Aplikasi Web Medicare+",
@@ -133,7 +133,47 @@
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "74b65b38-9be9-4696-ae4c-8ccf1cc335cf",
+                  "title": "New generic threat",
+                  "status": "NotApplicable",
+                  "severity": "Low",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                },
+                {
+                  "id": "0b51e38c-c47e-4f52-a98b-8a9f0849f568",
+                  "title": "New generic threat",
+                  "status": "NotApplicable",
+                  "severity": "Low",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                },
+                {
+                  "id": "1520556d-f029-4c8e-9df2-45eafb675d04",
+                  "title": "New generic threat",
+                  "status": "NotApplicable",
+                  "severity": "Low",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                }
+              ]
             },
             "children": [
               "6d3ff79e-356b-4d8a-8db6-b7548dc5778f"
@@ -160,6 +200,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -243,7 +284,6 @@
               ]
             },
             "id": "2ad9ecbe-8e5b-4850-b124-6b1e81d9f0b5",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Sistem Telemedisin",
@@ -255,7 +295,34 @@
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "76b0a4c2-ee8c-40b0-945f-2a127cd14b31",
+                  "title": "New generic threat",
+                  "status": "NotApplicable",
+                  "severity": "Low",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                },
+                {
+                  "id": "8515ec8b-3c17-4e38-93a7-8327bf825d1d",
+                  "title": "New generic threat",
+                  "status": "NotApplicable",
+                  "severity": "Low",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -279,6 +346,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -362,7 +430,6 @@
               ]
             },
             "id": "22a34660-5228-4a73-9606-2cb93a30ce01",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "Dokter & Pasien",
@@ -371,7 +438,47 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "1c31d5f9-a222-4c49-85e9-03ed830322c1",
+                  "title": "Pengguna / Dokter dapat melakukan penyamaran",
+                  "status": "NotApplicable",
+                  "severity": "Low",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                },
+                {
+                  "id": "0d551d47-01c9-4267-90f4-2ffc4cd2d1ca",
+                  "title": "New generic threat",
+                  "status": "NotApplicable",
+                  "severity": "Low",
+                  "type": "Repudiation",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                },
+                {
+                  "id": "8dcd2467-6c38-43fd-a3a5-ca9e71d3d75d",
+                  "title": "New generic threat",
+                  "status": "NotApplicable",
+                  "severity": "Low",
+                  "type": "Elevation of privilege",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -395,6 +502,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -478,7 +586,6 @@
               ]
             },
             "id": "f893071a-5f91-447b-b280-0960cf95988a",
-            "zIndex": 5,
             "data": {
               "type": "tm.Actor",
               "name": "Sistem BPJS & Asuransi Swasta\n",
@@ -487,7 +594,34 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "1957e726-134f-478d-94e4-c3c0c7480314",
+                  "title": "New generic threat",
+                  "status": "NotApplicable",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 16,
+                  "score": ""
+                },
+                {
+                  "id": "e1d82fe5-2455-4fbf-9c55-66dc7e376c2f",
+                  "title": "New generic threat",
+                  "status": "NotApplicable",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 17,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -511,6 +645,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -594,7 +729,6 @@
               ]
             },
             "id": "f5307fff-8702-4cb0-8bf3-a4fcfbd353ae",
-            "zIndex": 6,
             "data": {
               "type": "tm.Actor",
               "name": "Apotek & Labolatorium",
@@ -603,7 +737,47 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "cf4f851e-3838-42e6-8e8b-52dcc3606f01",
+                  "title": "New generic threat",
+                  "status": "NotApplicable",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
+                },
+                {
+                  "id": "807774f0-5f3b-40c2-b7e1-5e2066aaf9d9",
+                  "title": "New generic threat",
+                  "status": "NotApplicable",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
+                },
+                {
+                  "id": "bff48724-e4ba-4893-865a-b5e496dbd7ae",
+                  "title": "New generic threat",
+                  "status": "NotApplicable",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -627,6 +801,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -710,7 +885,6 @@
               ]
             },
             "id": "f19e96ca-19c7-46bc-a7da-f554852090fc",
-            "zIndex": 7,
             "data": {
               "type": "tm.Actor",
               "name": "Klinik/ Rumah Sakit",
@@ -746,6 +920,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -829,7 +1004,6 @@
               ]
             },
             "id": "cef3c9d0-ee40-489e-b741-b7be22792241",
-            "zIndex": 8,
             "data": {
               "type": "tm.Store",
               "name": "Database Cloud & On Premise",
@@ -842,7 +1016,60 @@
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "79895620-0125-4bb9-8c00-9cef42dd756f",
+                  "title": "New generic threat",
+                  "status": "NotApplicable",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 18,
+                  "score": ""
+                },
+                {
+                  "id": "22ef14de-7c00-4f47-9bbd-dac46dd4ff69",
+                  "title": "New generic threat",
+                  "status": "NotApplicable",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 19,
+                  "score": ""
+                },
+                {
+                  "id": "054bf3ec-f84f-4745-9488-65f24944743c",
+                  "title": "New generic threat",
+                  "status": "NotApplicable",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                },
+                {
+                  "id": "e487a816-53ec-4327-a910-8224cb5eefea",
+                  "title": "New generic threat",
+                  "status": "NotApplicable",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 21,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -889,52 +1116,6 @@
               "port": "4bdc42f8-17b2-4e25-8657-45aec4419fa2"
             },
             "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "6d3ff79e-356b-4d8a-8db6-b7548dc5778f",
-            "source": {
-              "cell": "e35e618c-c7cd-4e31-9291-4351fb2ab0fb",
-              "port": "d360b293-35f5-4edc-8352-4121378365e0"
-            },
-            "target": {
-              "cell": "e35e618c-c7cd-4e31-9291-4351fb2ab0fb",
-              "port": "d360b293-35f5-4edc-8352-4121378365e0"
-            },
-            "vertices": [],
-            "parent": "e35e618c-c7cd-4e31-9291-4351fb2ab0fb"
           },
           {
             "shape": "flow",
@@ -1613,6 +1794,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Tubagus Rizky Dharmawan, ST.,MSc",
-    "threatTop": 4
+    "threatTop": 21
   }
 }
