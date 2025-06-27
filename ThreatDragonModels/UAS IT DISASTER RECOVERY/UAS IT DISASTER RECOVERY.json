@@ -1,0 +1,33 @@
+{
+  "version": "2.4.1",
+  "summary": {
+    "title": "UAS IT DISASTER RECOVERY",
+    "owner": "Dzakiah Nur Aini dan Siti Husnul Mar'iyah",
+    "description": "1",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "husnul"
+      },
+      {
+        "name": "dzakiah"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Data Flow Diagram (DFD)  MediCare+",
+        "diagramType": "Generic",
+        "placeholder": "New generic diagram description",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "version": "2.4.1",
+        "cells": []
+      }
+    ],
+    "diagramTop": 3,
+    "reviewer": "Tubagus Rizky Dharmawan, ST.,MSc",
+    "threatTop": 0
+  }
+}
