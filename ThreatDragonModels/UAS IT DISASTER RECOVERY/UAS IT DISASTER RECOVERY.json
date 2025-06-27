@@ -136,7 +136,7 @@
               "threats": [
                 {
                   "id": "74b65b38-9be9-4696-ae4c-8ccf1cc335cf",
-                  "title": "New generic threat",
+                  "title": "Aplikasi bisa menjadi target injeksi kode",
                   "status": "NotApplicable",
                   "severity": "Low",
                   "type": "Tampering",
@@ -149,7 +149,7 @@
                 },
                 {
                   "id": "0b51e38c-c47e-4f52-a98b-8a9f0849f568",
-                  "title": "New generic threat",
+                  "title": "Jika koneksi tidak terenkripsi",
                   "status": "NotApplicable",
                   "severity": "Low",
                   "type": "Information disclosure",
@@ -162,7 +162,7 @@
                 },
                 {
                   "id": "1520556d-f029-4c8e-9df2-45eafb675d04",
-                  "title": "New generic threat",
+                  "title": "Aplikasi bisa terserang DoS/DDoS",
                   "status": "NotApplicable",
                   "severity": "Low",
                   "type": "Denial of service",
@@ -298,7 +298,7 @@
               "threats": [
                 {
                   "id": "76b0a4c2-ee8c-40b0-945f-2a127cd14b31",
-                  "title": "New generic threat",
+                  "title": "Percakapan dokter-pasien via video/chat bisa disadap jika jalur komunikasi tidak terenkripsi",
                   "status": "NotApplicable",
                   "severity": "Low",
                   "type": "Information disclosure",
@@ -311,7 +311,7 @@
                 },
                 {
                   "id": "8515ec8b-3c17-4e38-93a7-8327bf825d1d",
-                  "title": "New generic threat",
+                  "title": "Layanan bisa gagal digunakan jika server telemedisin overload atau diserang",
                   "status": "NotApplicable",
                   "severity": "Low",
                   "type": "Denial of service",
@@ -454,7 +454,7 @@
                 },
                 {
                   "id": "0d551d47-01c9-4267-90f4-2ffc4cd2d1ca",
-                  "title": "New generic threat",
+                  "title": "Bisa menyangkal pernah melakukan suatu hal",
                   "status": "NotApplicable",
                   "severity": "Low",
                   "type": "Repudiation",
@@ -467,7 +467,7 @@
                 },
                 {
                   "id": "8dcd2467-6c38-43fd-a3a5-ca9e71d3d75d",
-                  "title": "New generic threat",
+                  "title": "Dokter bisa mengakses data pasien jika sistem kurang ",
                   "status": "NotApplicable",
                   "severity": "Low",
                   "type": "Elevation of privilege",
@@ -740,7 +740,7 @@
               "threats": [
                 {
                   "id": "cf4f851e-3838-42e6-8e8b-52dcc3606f01",
-                  "title": "New generic threat",
+                  "title": "Data resep atau hasil lab bisa diubah jika ada celah dalam sistem komunikasi atau akses ilegal",
                   "status": "NotApplicable",
                   "severity": "Medium",
                   "type": "Tampering",
@@ -753,7 +753,7 @@
                 },
                 {
                   "id": "807774f0-5f3b-40c2-b7e1-5e2066aaf9d9",
-                  "title": "New generic threat",
+                  "title": "Hasil lab atau resep bisa bocor ke pihak yang tidak berhak jika tidak dilindungi",
                   "status": "NotApplicable",
                   "severity": "High",
                   "type": "Information disclosure",
